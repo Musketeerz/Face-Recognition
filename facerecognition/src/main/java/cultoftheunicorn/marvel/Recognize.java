@@ -185,11 +185,15 @@ public class Recognize extends AppCompatActivity implements CameraBridgeViewBase
                     uniqueNames.add(tempName);
                     uniqueNamesArray = uniqueNames.toArray(new String[uniqueNames.size()]);
                     StringBuilder strBuilder = new StringBuilder();
-                    for (int i = 0; i < 1; i++) {
-                        strBuilder.append(uniqueNamesArray[i] + "\n");
-                    }
-                    String textToDisplay = strBuilder.toString();
-                    results.setText(textToDisplay);
+//                    for (int i = 0; i < 1; i++) {
+//                        strBuilder.append(uniqueNamesArray[i] + "\n");
+//                    }
+//                    String textToDisplay = strBuilder.toString();
+                    results.setText(uniqueNamesArray[0]);
+                    faceState = IDLE;
+                    Intent i = new Intent("com.example.nithe.door_bell.MainActivity");
+                    i.putExtra("FACE_DATA", tempName);
+                    startActivity(i);
                 }
             }
         };

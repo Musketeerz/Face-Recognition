@@ -49,7 +49,12 @@
         </activity>
         <activity
             android:name="cultoftheunicorn.marvel.Recognize"
-            android:screenOrientation="portrait" />
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="cultoftheunicorn.marvel.Recognize" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
         <activity
             android:name="cultoftheunicorn.marvel.Training"
             android:label="Training"

@@ -4,7 +4,6 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/FaceRecognition-master.iml" filepath="$PROJECT_DIR$/FaceRecognition-master.iml" />
       <module fileurl="file://$PROJECT_DIR$/facerecognition/facerecognition.iml" filepath="$PROJECT_DIR$/facerecognition/facerecognition.iml" />
-      <module fileurl="file://C:\Users\RajPrabhakar\AndroidStudioProjects\FaceRecognition-master\facerecognition\facerecognition.iml" filepath="C:\Users\RajPrabhakar\AndroidStudioProjects\FaceRecognition-master\facerecognition\facerecognition.iml" />
       <module fileurl="file://C:\Users\RajPrabhakar\AndroidStudioProjects\FaceRecognition-master\marvel-master.iml" filepath="C:\Users\RajPrabhakar\AndroidStudioProjects\FaceRecognition-master\marvel-master.iml" />
       <module fileurl="file://$PROJECT_DIR$/openCVLibrary2410/openCVLibrary2410.iml" filepath="$PROJECT_DIR$/openCVLibrary2410/openCVLibrary2410.iml" />
     </modules>
